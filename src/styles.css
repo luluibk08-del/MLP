@@ -495,90 +495,38 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 8px;
+    padding: 6px;
+    min-height: 70px;
+  }
+
+  .mini-logo {
+    font-size: 24px;
   }
 
   .nav-links {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 3px;
     justify-content: center;
-    width: 100%;
-  }
-  .nav-links button {
-    font-size: 14px;
-    padding: 8px 12px;
   }
 
-  .mini-logo {
-    font-size: 18px;
+  .nav-links button {
+    font-size: 12px;
+    padding: 4px 6px;
   }
 
   .search-bar {
-    width: 65px;
-    height: 28px;
-    font-size: 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
   }
 
   .cart-btn {
-    width: 80px;
-    height: 35px;
-    font-size: 12px;
-    padding: 4px;
-    border-radius: 20px;
-  }
-
-  .nav-links button {
-    width: 100%;
-  }
-
-  .search-bar {
-    width: 100%;
-  }
-
-  .grille-produits {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
-  .carte-produit {
-    width: 100%;
-    padding: 10px;
-  }
-
-  .image-produit {
-    width: 100%;
-    height: auto;
-  }
-
-  .carte-produit h2 {
+    width: 40px;
+    height: 40px;
     font-size: 14px;
   }
-
-  .prix {
-    font-size: 14px;
-  }
-  .carte-produit {
-    width: 90%;
-    margin: auto;
-  }
-
-  .image-produit {
-    width: 100%;
-    height: auto;
-  }
-
-  .titre-boutique {
-    font-size: 1.8rem;
-  }
 }
-.navbar {
-  min-height: 100px;
-}
-
-.mini-logo {
-  font-size: 50px;
-}
-
 .back-btn {
   width: 40px;
   height: 40px;
