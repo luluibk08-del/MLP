@@ -495,38 +495,78 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 6px;
-    min-height: 70px;
+    padding: 4px;
+    min-height: 60px;
   }
 
   .mini-logo {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .nav-links {
     display: flex;
     flex-direction: row;
-    gap: 3px;
+    gap: 2px;
     justify-content: center;
+    width: auto;
   }
 
   .nav-links button {
-    font-size: 12px;
-    padding: 4px 6px;
+    font-size: 10px;
+    padding: 2px 4px;
   }
 
   .search-bar {
-    width: 90px;
-    height: 30px;
-    font-size: 12px;
+    width: 55px;
+    height: 24px;
+    font-size: 9px;
   }
 
   .cart-btn {
-    width: 40px;
-    height: 40px;
-    font-size: 14px;
+    width: 55px;
+    height: 24px;
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 20px;
+  }
+
+  .back-btn {
+    width: 35px;
+    height: 35px;
+  }
+
+  .titre-boutique {
+    font-size: 1.6rem;
+  }
+
+  .hero {
+    min-height: 70vh;
   }
 }
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  justify-content: center;
+}
+
+.nav-links button {
+  font-size: 12px;
+  padding: 4px 6px;
+}
+
+.search-bar {
+  width: 90px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.cart-btn {
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+}
+
 .back-btn {
   width: 40px;
   height: 40px;
