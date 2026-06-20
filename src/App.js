@@ -289,7 +289,7 @@ export default function App() {
               setPage("apropos");
             }}
           >
-            À propos de nous
+            À propos
           </button>
         </div>
 

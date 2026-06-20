@@ -502,6 +502,9 @@ body {
   .mini-logo {
     font-size: 20px;
   }
+  .nav-links button {
+    white-space: nowrap;
+  }
 
   .nav-links {
     display: flex;
