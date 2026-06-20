@@ -282,6 +282,14 @@ export default function App() {
           >
             Boutique
           </button>
+          <button
+            onClick={() => {
+              setPagePrecedente(page);
+              setPage("accessoires");
+            }}
+          >
+            Accessoires
+          </button>
 
           <button
             onClick={() => {
