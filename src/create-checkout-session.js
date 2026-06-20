@@ -23,8 +23,8 @@ module.exports = async (req, res) => {
           quantity: 1,
         },
       ],
-      success_url: "https://ww6ccq.csb.app/",
-      cancel_url: "https://ww6ccq.csb.app/",
+      success_url: "https://mlp-phi.vercel.app",
+      cancel_url: "https://mlp-phi.vercel.app",
     });
 
     res.status(200).json({ url: session.url });
